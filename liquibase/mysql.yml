@@ -1,0 +1,18 @@
+version: '3'
+services:
+  mysql:
+    image: registry-mt1.enjoy-platform.net/silverspin/mysql:0.0.3
+    networks:
+      default:
+        aliases:
+          - plaingamingdb
+    ports:
+      - "3306:3306"
+    volumes:
+      - test_mysql_data:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+
+volumes:
+  test_mysql_data:
+    external: false

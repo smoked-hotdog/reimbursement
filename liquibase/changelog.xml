@@ -1,0 +1,26 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <include file="/changelogs/dev-13141.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-14915.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-14695.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-14727.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-15131.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-15234.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-16664.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-14749.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-17070.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-17468.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-17515.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-18231.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-19226.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-19487.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-20788.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-20980.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-21284.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-22884.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-21931.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-21940.xml" relativeToChangelogFile="true"/>
+    <include file="/changelogs/dev-23127.xml" relativeToChangelogFile="true"/>
+</databaseChangeLog>
