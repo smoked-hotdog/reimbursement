@@ -1,4 +1,4 @@
-package com.andzro.reimbursement.adminitem.infrastructure.repository;
+package com.andzro.reimbursement.admin.infrastructure.repository;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -12,7 +12,7 @@ import java.util.Date;
 @Setter
 public class Admin {
     @Id
-    private Long id;
+    private int admin_id;
     private String first_name;
     private String last_name;
     private String email;]
